@@ -16,13 +16,14 @@ What is the language of the movie "pulp fiction"?
              
 ## Install:
 git clone https://github.com/drknowsall/IMDB-BI-Assitant.git<br>
-cd biassist
-mkdir data 
-cd data
+cd biassist<br>
+mkdir data <br>
+cd data<br>
 
 Download the preprocessed dataset from:<br>
-gdown https://drive.google.com/file/d/1b0RR4BykPIBe8PMeGNueYGyM5vvggAG5/view?usp=sharing
-Alternatively run: python preprocess_imdb_ds.py --path data
+gdown https://drive.google.com/file/d/1b0RR4BykPIBe8PMeGNueYGyM5vvggAG5/view?usp=sharing<br>
+Alternatively run: <br>
+python preprocess_imdb_ds.py --path data
 
 pip install -r requirements.txt<br>
 
