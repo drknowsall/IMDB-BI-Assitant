@@ -7,6 +7,7 @@ git clone https://github.com/drknowsall/IMDB-BI-Assitant.git<br>
 cd biassist
 pip install -r requirements.txt<br>
 Download the preprocessed dataset from:<br>
+Alternatively run: python preprocess_imdb_ds.py --path <dataset path>
 
 ## Usage:
 First prepare the OpenAI key
