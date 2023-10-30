@@ -1,5 +1,5 @@
 # IMDB-BI-Assitant
-Table Question Answering
+Table Question Answering<br>
 Query IMDB (non-commercial) dataset using ChatGPT
 
 ## Install:
@@ -10,8 +10,8 @@ Download the preprocessed dataset from:<br>
 Alternatively run: python preprocess_imdb_ds.py --path <dataset path>
 
 ## Usage:
-First prepare the OpenAI key
-python bi_assist.py --api_key <API key>
+Get your OpenAI key<br>
+python bi_assist.py --api_key key
 
 ## Design:
 ### A.  Preprocessed IMDB dataset:
