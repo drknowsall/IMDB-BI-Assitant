@@ -2,6 +2,18 @@
 Table Question Answering<br>
 Query IMDB (non-commercial) dataset using ChatGPT
 
+Example question:
+
+How many movies are there in the dataset?
+How many actors died last year?
+What is the series with the most episodes?
+In how many drama movies sean connary performed?
+What is the highest rating movie and series?
+What are the titles that sean connary is known for?',
+How many movies were released last year?
+How many actors were born in 2000?
+What is the language of the movie "pulp fiction"?
+             
 ## Install:
 git clone https://github.com/drknowsall/IMDB-BI-Assitant.git<br>
 cd biassist
