@@ -33,13 +33,15 @@ python bi_assist.py --api_key key
 
 ## Design:
 ### A.  Preprocessed IMDB dataset:
-  
-  - Remove not relevant columns
-  - Remove non english titles
+
+  - Clean datasets
+  - Remove non relevant columns
+  - Merge datasets 
   - Aggregate certain columns in order to enable more relevant queries
   - Index columns for faster queries
 
 ### B.  Infer:
+
   0. recieve question from the user
   1. Using a prompt request from ChatGPT the relevant query for the question
   2. Post process to remove certain tokens
