@@ -36,14 +36,14 @@ python bi_assist.py --api_key key
 
   - Clean datasets
   - Remove non relevant columns
-  - Merge datasets 
-  - Aggregate certain columns in order to enable more relevant queries
+  - Merge datasets for simpler queries
+  - Aggregate certain columns for faster queries
   - Index columns for faster queries
 
 ### B.  Infer:
 
   0. recieve question from the user
-  1. Using a prompt request from ChatGPT the relevant query for the question
+  1. Using a prompt, request from ChatGPT the relevant sql query that can answer the question
   2. Post process to remove certain tokens
   3. Run the query on the dataset
   4. Send the result dataframe to ChatGPT for a final answer
